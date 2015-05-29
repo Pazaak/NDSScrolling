@@ -1,0 +1,1669 @@
+Archive member included because of file (symbol)
+
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+                              main.o (consoleDemoInit)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+                              main.o (scanKeys)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o (initSystem)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o) (fifoSetValue32Handler)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o) (irqSet)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o (__libnds_exit)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o (__libnds_mpu_setup)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o) (swiIntrWait)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (nocashWrite)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o) (IntrMain)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o) (swiSoftReset)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(default_font.bin.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (default_font_bin)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (bgState)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o) (systemValueHandler)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o) (sinLerp)
+/home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o) (vramDefault)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (__aeabi_idivmod)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o) (__aeabi_idiv0)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-bsearch.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o) (bsearch)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (_impure_ptr)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o (__libc_init_array)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iprintf.o)
+                              main.o (iprintf)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (memcpy)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+                              main.o (memmove)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
+                              main.o (memset)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
+                              main.o (rand)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (setvbuf)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (siscanf)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o) (__seofread)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o) (strlen)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o) (__ssvfiscanf_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ungetc.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (__submore)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iprintf.o) (_vfiprintf_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (_wcrtomb_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (_wcsrtombs_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o) (__wctomb)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wsetup.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (__swsetup_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (__ctype_ptr__)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fflush.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o) (_fflush_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-findfp.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o) (_cleanup_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fputwc.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (_fputwc_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o) (_free_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fvwrite.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (__sfvwrite_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fwalk.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-findfp.o) (_fwalk)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iswspace.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (iswspace)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iswspace.o) (_jp2uc)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (__locale_charset)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-makebuf.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wsetup.o) (__smakebuf_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o) (malloc)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ungetc.o) (_malloc_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbrtowc.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (_mbrtowc_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (__utf8_mbtowc)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (memchr)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o) (__malloc_lock)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ungetc.o) (_realloc_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sccl.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (__sccl)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strcasecmp)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strcat)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strchr)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o) (strcmp)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strcpy)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strlcpy)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strncasecmp)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (strncmp)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (strncpy)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoll_r.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (_strtoll_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (_strtol_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoull_r.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (_strtoull_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoul.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (_strtoul_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (__action_table)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wbuf.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fputwc.o) (__swbuf_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o) (_wcsnrtombs_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fclose.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-findfp.o) (fclose)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o) (_getenv_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o) (environ)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o) (__env_lock)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(iosupport.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o) (devoptab_list)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(close.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o) (_close_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(fstat.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-makebuf.o) (_fstat_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(isatty.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-makebuf.o) (_isatty_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(lseek.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o) (_lseek_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(read.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o) (_read_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o) (_sbrk_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o) (punixTime)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(write.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o) (_write_r)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o (fake_heap_start)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(build_argv.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o (build_argv)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+                              /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o) (__syscalls)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(handle_manager.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(close.o) (__release_handle)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o) (__aeabi_uidiv)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o) (__aeabi_uldivmod)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o) (__divdi3)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o) (__udivdi3)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o) (__clzdi2)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o) (__clzsi2)
+/home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-errno.o)
+                              /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o) (__errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+currentCopy         0x5c              /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+map                 0x1000            main.o
+fifo_datamsg_data   0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+__dsimode           0x1               /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+bgState             0x140             /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+fifo_buffer         0x800             /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+bgIsTextLut         0x8               /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+fifo_value32_func   0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+fifo_address_func   0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+fifo_value32_data   0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+fifo_value32_queue  0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+fifo_data_queue     0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+punixTime           0x4               /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o)
+g_character         0x18              main.o
+fifo_address_data   0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+fifo_datamsg_func   0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+fifo_address_queue  0x40              /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x02000000
+ewram            0x02000000         0x003ff000
+dtcm             0x0b000000         0x00004000
+vectors          0x01000000         0x00000100
+itcm             0x01000100         0x00007f00
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x01000000                __vectors_start = ORIGIN (vectors)
+                0x01000100                __itcm_start = ORIGIN (itcm)
+                0x023ff000                __ewram_end = (ORIGIN (ewram) + 0x3ff000)
+                0x023ff000                __eheap_end = (ORIGIN (ewram) + 0x3ff000)
+                0x0b000000                __dtcm_start = ORIGIN (dtcm)
+                0x0b004000                __dtcm_top = (ORIGIN (dtcm) + 0x4000)
+                0x0b003ff8                __irq_flags = (__dtcm_top - 0x8)
+                0x0b003ffc                __irq_vector = (__dtcm_top - 0x4)
+                0x0b003f00                __sp_svc = (__dtcm_top - 0x100)
+                0x0b003e00                __sp_irq = (__sp_svc - 0x100)
+                0x0b003d00                __sp_usr = (__sp_irq - 0x100)
+
+.init           0x02000000      0x248
+                0x02000000                __text_start = .
+ *(.init)
+ .init          0x02000000      0x230 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+                0x02000000                _start
+ .init          0x02000230        0xc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+                0x02000230                _init
+ .init          0x0200023c        0xc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+                0x02000248                . = ALIGN (0x4)
+
+.plt
+ *(.plt)
+
+.text           0x02000250    0x14170
+ *(EXCLUDE_FILE(*.itcm*) .text)
+ .text          0x02000250        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+ .text          0x02000250        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+ .text          0x02000250      0x108 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .text          0x02000358        0x0 gfx_nave1.o
+ .text          0x02000358        0x0 gfx_tileset.o
+ .text          0x02000358      0x148 character.o
+                0x02000358                characterUpdate
+                0x02000428                scrollingUpdate
+                0x0200043c                characterRender
+ .text          0x020004a0      0x518 main.o
+                0x020004a0                draw
+                0x020004d0                redraw
+                0x020005c0                processInput
+                0x02000624                processLogic
+                0x020006d8                updateGraphics
+                0x02000734                resetcharacter
+                0x0200075c                setupInterrupts
+                0x02000770                setupGraphics
+ .text          0x020009b8     0x116c /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+                0x02000c24                nocash_write
+                0x02000c9c                con_write
+                0x020011d0                consoleGetDefault
+                0x020011dc                consoleLoadFont
+                0x02001544                consoleInit
+                0x02001770                consoleSelect
+                0x02001780                consoleSetFont
+                0x020017a0                consoleDebugInit
+                0x020017f4                consoleDemoInit
+                0x020019fc                consolePrintChar
+                0x02001af4                consoleClear
+                0x02001b04                consoleSetWindow
+ .text          0x02001b24       0xf4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+                0x02001b24                scanKeys
+                0x02001b90                keysHeld
+                0x02001b9c                keysDown
+                0x02001bac                keysDownRepeat
+                0x02001bbc                keysSetRepeat
+                0x02001bd4                keysUp
+                0x02001be4                keysCurrent
+ .text          0x02001c18      0x19c /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+                0x02001c18                initSystem
+ .text          0x02001db4      0xcb8 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+                0x02002078                fifoSetValue32Handler
+                0x020020ec                fifoSendAddress
+                0x02002118                fifoSendValue32
+                0x02002154                fifoSendDatamsg
+                0x020021c8                fifoGetAddress
+                0x02002234                fifoSetAddressHandler
+                0x020022a8                fifoGetValue32
+                0x020022bc                fifoGetDatamsg
+                0x02002770                fifoSetDatamsgHandler
+                0x02002804                fifoCheckAddress
+                0x02002828                fifoCheckDatamsg
+                0x0200284c                fifoCheckDatamsgLength
+                0x0200287c                fifoCheckValue32
+                0x020028a0                fifoInit
+ .text          0x02002a6c      0x244 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+                0x02002a6c                irqDummy
+                0x02002a70                irqSet
+                0x02002adc                irqInit
+                0x02002b28                irqInitHandler
+                0x02002b58                irqEnable
+                0x02002bbc                irqDisable
+                0x02002c20                irqClear
+ .text          0x02002cb0       0x5c /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+                0x02002cb0                systemErrorExit
+                0x02002cb4                __libnds_exit
+ .text          0x02002d0c      0x1b4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+                0x02002d0c                __libnds_mpu_setup
+                0x02002e4c                memCached
+                0x02002e64                memUncached
+ .text          0x02002ec0       0x70 /home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+                0x02002ec0                swiDelay
+                0x02002ec4                swiIntrWait
+                0x02002ec8                swiWaitForVBlank
+                0x02002ecc                swiSleep
+                0x02002ed0                swiChangeSoundBias
+                0x02002ed4                swiDivide
+                0x02002ed8                swiRemainder
+                0x02002ede                swiDivMod
+                0x02002eea                swiCopy
+                0x02002eee                swiFastCopy
+                0x02002ef2                swiSqrt
+                0x02002ef6                swiCRC16
+                0x02002efa                swiIsDebugger
+                0x02002efe                swiUnpackBits
+                0x02002f02                swiDecompressLZSSWram
+                0x02002f06                swiDecompressLZSSVramNTR
+                0x02002f0a                swiDecompressLZSSVramTWL
+                0x02002f0e                swiDecompressHuffman
+                0x02002f12                swiDecompressRLEWram
+                0x02002f16                swiDecompressRLEVram
+                0x02002f1a                swiWaitForIRQ
+                0x02002f1e                swiDecodeDelta8
+                0x02002f22                swiDecodeDelta16
+                0x02002f26                swiSetHaltCR
+ .text          0x02002f30       0xa4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+                0x02002f30                nocashWrite
+                0x02002f32                nocashMessage
+ .text          0x02002fd4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+ *fill*         0x02002fd4        0xc ff
+ .text          0x02002fe0       0x30 /home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+                0x02002fe0                swiSoftReset
+ .text          0x02003010        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(default_font.bin.o)
+ .text          0x02003010      0x3bc /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+                0x02003010                bgIsText
+                0x0200301c                checkIfText
+                0x02003074                bgUpdate
+                0x02003168                bgInit_call
+                0x02003290                bgInitSub_call
+ .text          0x020033cc      0x140 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+                0x020033cc                setSDcallback
+                0x020033d8                systemValueHandler
+                0x02003420                systemMsgHandler
+                0x02003470                systemSleep
+                0x02003488                powerOn
+                0x020034b4                powerOff
+                0x020034dc                ledBlink
+                0x020034ec                getBatteryLevel
+ .text          0x0200350c      0x3a8 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+                0x0200350c                asinComp
+                0x02003530                sinLutLookup
+                0x02003568                sinLerp
+                0x020035f8                cosLerp
+                0x020036b4                tanLutLookup
+                0x020036ec                tanLerp
+                0x02003794                asinLerp
+                0x02003810                acosLerp
+                0x0200388c                atanComp
+ .text          0x020038b4      0x1f8 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+                0x020038b4                vramSetPrimaryBanks
+                0x020038f8                vramSetMainBanks
+                0x0200393c                vramSetBanks_EFG
+                0x02003974                vramRestorePrimaryBanks
+                0x02003980                vramRestoreMainBanks
+                0x0200398c                vramRestoreBanks_EFG
+                0x02003998                setBrightness
+                0x020039d8                vramDefault
+ .text          0x02003aac      0x148 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
+                0x02003aac                __aeabi_idiv
+                0x02003aac                __divsi3
+                0x02003bd4                __aeabi_idivmod
+ .text          0x02003bf4        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
+                0x02003bf4                __aeabi_ldiv0
+                0x02003bf4                __aeabi_idiv0
+ .text          0x02003bf8       0x84 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-bsearch.o)
+                0x02003bf8                bsearch
+ .text          0x02003c7c        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+ .text          0x02003c7c       0x80 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+                0x02003c7c                __libc_init_array
+ .text          0x02003cfc       0x74 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iprintf.o)
+                0x02003cfc                iprintf
+                0x02003d3c                _iprintf_r
+ .text          0x02003d70       0xf0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+                0x02003d70                memcpy
+ .text          0x02003e60      0x12c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+                0x02003e60                memmove
+ .text          0x02003f8c       0xf4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
+                0x02003f8c                memset
+ .text          0x02004080       0x70 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
+                0x02004080                srand
+                0x0200409c                rand
+ .text          0x020040f0      0x174 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o)
+                0x020040f0                setvbuf
+ .text          0x02004264      0x100 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o)
+                0x02004264                siscanf
+                0x020042e4                _siscanf_r
+ .text          0x02004364       0xd8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o)
+                0x02004364                __sread
+                0x02004398                __seofread
+                0x020043a0                __swrite
+                0x020043f8                __sseek
+                0x02004428                __sclose
+ .text          0x0200443c       0x60 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+                0x0200443c                strlen
+ .text          0x0200449c     0x237c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o)
+                0x0200449c                _sungetc_r
+                0x02004590                __ssrefill_r
+                0x020045fc                _sfread_r
+                0x020046d4                __ssvfiscanf_r
+ .text          0x02006818      0x24c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ungetc.o)
+                0x02006818                __submore
+                0x020068c8                _ungetc_r
+                0x02006a4c                ungetc
+ .text          0x02006a64     0x3c00 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o)
+                0x02007370                __sprint_r
+                0x02007388                _vfiprintf_r
+                0x0200a590                vfiprintf
+ .text          0x0200a664      0x138 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
+                0x0200a664                _wcrtomb_r
+                0x0200a6fc                wcrtomb
+ .text          0x0200a79c       0x60 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
+                0x0200a79c                _wcsrtombs_r
+                0x0200a7c0                wcsrtombs
+ .text          0x0200a7fc      0x3cc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
+                0x0200a7fc                __utf8_wctomb
+                0x0200a910                _wctomb_r
+                0x0200a960                __ascii_wctomb
+                0x0200a988                __sjis_wctomb
+                0x0200aa14                __eucjp_wctomb
+                0x0200aae8                __jis_wctomb
+ .text          0x0200abc8      0x160 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wsetup.o)
+                0x0200abc8                __swsetup_r
+ .text          0x0200ad28       0x18 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
+                0x0200ad28                __set_ctype
+ .text          0x0200ad40      0x2d0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fflush.o)
+                0x0200ad40                __sflush_r
+                0x0200af80                _fflush_r
+                0x0200afd4                fflush
+ .text          0x0200b010      0x350 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-findfp.o)
+                0x0200b020                _cleanup_r
+                0x0200b198                __sfmoreglue
+                0x0200b1e8                __sfp
+                0x0200b2d4                _cleanup
+                0x0200b2f8                __sinit
+                0x0200b308                __sfp_lock_acquire
+                0x0200b30c                __sfp_lock_release
+                0x0200b310                __sinit_lock_acquire
+                0x0200b314                __sinit_lock_release
+                0x0200b318                __fp_lock_all
+                0x0200b33c                __fp_unlock_all
+ .text          0x0200b360      0x190 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fputwc.o)
+                0x0200b360                _fputwc_r
+                0x0200b4ac                fputwc
+ .text          0x0200b4f0      0x3bc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+                0x0200b4f0                _malloc_trim_r
+                0x0200b5f0                _free_r
+ .text          0x0200b8ac      0x4ec /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fvwrite.o)
+                0x0200b8ac                __sfvwrite_r
+ .text          0x0200bd98      0x110 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fwalk.o)
+                0x0200bd98                _fwalk
+                0x0200be1c                _fwalk_reent
+ .text          0x0200bea8       0x7c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iswspace.o)
+                0x0200bea8                iswspace
+ .text          0x0200bf24      0x280 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o)
+                0x0200c128                _jp2uc
+ .text          0x0200c1a4      0xd40 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
+                0x0200cb74                _setlocale_r
+                0x0200ce7c                __locale_charset
+                0x0200ce88                __locale_mb_cur_max
+                0x0200ce98                __locale_msgcharset
+                0x0200cea4                __locale_cjk_lang
+                0x0200ceb4                _localeconv_r
+                0x0200cec0                setlocale
+                0x0200ced8                localeconv
+ .text          0x0200cee4      0x168 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-makebuf.o)
+                0x0200cee4                __smakebuf_r
+ .text          0x0200d04c       0x40 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+                0x0200d04c                malloc
+                0x0200d06c                free
+ .text          0x0200d08c      0x724 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+                0x0200d08c                _malloc_r
+ .text          0x0200d7b0      0x14c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbrtowc.o)
+                0x0200d7b0                _mbrtowc_r
+                0x0200d854                mbrtowc
+ .text          0x0200d8fc      0x784 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
+                0x0200d8fc                __utf8_mbtowc
+                0x0200dc00                _mbtowc_r
+                0x0200dc54                __ascii_mbtowc
+                0x0200dca0                __sjis_mbtowc
+                0x0200dd7c                __eucjp_mbtowc
+                0x0200decc                __jis_mbtowc
+ .text          0x0200e080      0x118 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
+                0x0200e080                memchr
+ .text          0x0200e198        0x8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+                0x0200e198                __malloc_lock
+                0x0200e19c                __malloc_unlock
+ .text          0x0200e1a0      0x4dc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
+                0x0200e1a0                _realloc_r
+ .text          0x0200e67c       0xdc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sccl.o)
+                0x0200e67c                __sccl
+ .text          0x0200e758       0x6c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
+                0x0200e758                strcasecmp
+ .text          0x0200e7c4       0x84 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
+                0x0200e7c4                strcat
+ .text          0x0200e848      0x160 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
+                0x0200e848                strchr
+ .text          0x0200e9a8      0x230 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
+                0x0200e9a8                strcmp
+ .text          0x0200ebd8       0xf0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+                0x0200ebd8                strcpy
+ .text          0x0200ecc8       0x48 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
+                0x0200ecc8                strlcpy
+ .text          0x0200ed10       0x94 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
+                0x0200ed10                strncasecmp
+ .text          0x0200eda4      0x118 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
+                0x0200eda4                strncmp
+ .text          0x0200eebc       0xe4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
+                0x0200eebc                strncpy
+ .text          0x0200efa0      0x2c8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoll_r.o)
+                0x0200efa0                _strtoll_r
+ .text          0x0200f268      0x204 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
+                0x0200f268                _strtol_r
+                0x0200f444                strtol
+ *fill*         0x0200f46c        0x4 ff
+ .text          0x0200f470      0x270 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoull_r.o)
+                0x0200f470                _strtoull_r
+ .text          0x0200f6e0      0x1f4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoul.o)
+                0x0200f6e0                _strtoul_r
+                0x0200f8ac                strtoul
+ .text          0x0200f8d4     0x38b4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+                0x02010134                __ssprint_r
+                0x020102e4                _svfiprintf_r
+ .text          0x02013188      0x140 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wbuf.o)
+                0x02013188                __swbuf_r
+                0x020132b0                __swbuf
+ .text          0x020132c8      0x1dc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
+                0x020132c8                _wcsnrtombs_r
+                0x0201345c                wcsnrtombs
+ .text          0x020134a4      0x110 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fclose.o)
+                0x020134a4                _fclose_r
+                0x020135a0                fclose
+ .text          0x020135b4       0xec /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
+                0x020135b4                _findenv_r
+                0x02013684                _getenv_r
+ .text          0x020136a0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
+ .text          0x020136a0        0x8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
+                0x020136a0                __env_lock
+                0x020136a4                __env_unlock
+ .text          0x020136a8      0x1c4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(iosupport.o)
+                0x020136a8                setDefaultDevice
+                0x020136c0                FindDevice
+                0x02013778                RemoveDevice
+                0x020137a8                AddDevice
+                0x02013844                GetDeviceOpTab
+ .text          0x0201386c       0x74 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(close.o)
+                0x0201386c                _close_r
+ .text          0x020138e0       0x80 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(fstat.o)
+                0x020138e0                _fstat_r
+ .text          0x02013960        0x8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(isatty.o)
+                0x02013960                _isatty_r
+ .text          0x02013968       0x80 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(lseek.o)
+                0x02013968                _lseek_r
+ .text          0x020139e8       0x80 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(read.o)
+                0x020139e8                _read_r
+ .text          0x02013a68       0x70 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+                0x02013a68                _sbrk_r
+ .text          0x02013ad8       0x68 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o)
+                0x02013ad8                _times
+                0x02013af4                _times_r
+                0x02013afc                _gettimeofday_r
+ .text          0x02013b40       0x84 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(write.o)
+                0x02013b40                _write_r
+ .text          0x02013bc4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+ .text          0x02013bc4       0x80 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(build_argv.o)
+                0x02013bc4                build_argv
+ .text          0x02013c44        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+ .text          0x02013c44       0xb0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(handle_manager.o)
+                0x02013c44                __release_handle
+                0x02013c7c                __alloc_handle
+                0x02013cd8                __get_handle
+ .text          0x02013cf4      0x114 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
+                0x02013cf4                __udivsi3
+                0x02013cf4                __aeabi_uidiv
+                0x02013de8                __aeabi_uidivmod
+ .text          0x02013e08       0x3c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
+                0x02013e08                __aeabi_uldivmod
+ .text          0x02013e44       0x84 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
+                0x02013e44                __gnu_ldivmod_helper
+                0x02013e88                __gnu_uldivmod_helper
+ .text          0x02013ec8      0x178 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
+                0x02013ec8                __divdi3
+ .text          0x02014040      0x120 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
+                0x02014040                __udivdi3
+ .text          0x02014160       0x28 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
+                0x02014160                __clzdi2
+ .text          0x02014188       0x48 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
+                0x02014188                __clzsi2
+ .text          0x020141d0       0x10 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-errno.o)
+                0x020141d0                __errno
+ .text          0x020141e0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+ .text          0x020141e0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+ *(.text.*)
+ .text.startup  0x020141e0      0x130 main.o
+                0x020141e0                main
+ .text.startup.__stub
+                0x02014310       0x94 linker stubs
+ *(.stub)
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+                0x020143a4                . = ALIGN (0x4)
+
+.vfp11_veneer   0x020143c0        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x020143c0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x020143c0        0x0
+ .iplt          0x00000000        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+
+.fini           0x020143c0       0x18
+ *(.fini)
+ .fini          0x020143c0        0xc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+                0x020143c0                _fini
+ .fini          0x020143cc        0xc /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+                0x020143d8                __text_end = .
+
+.rodata         0x020143d8     0x61c0
+ *(.rodata)
+ .rodata        0x020143d8       0xa0 gfx_nave1.o
+                0x020143d8                gfx_nave1Tiles
+                0x02014458                gfx_nave1Pal
+ .rodata        0x02014478      0x120 gfx_tileset.o
+                0x02014478                gfx_tilesetTiles
+                0x02014578                gfx_tilesetPal
+ .rodata        0x02014598      0x200 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .rodata        0x02014798     0x2004 /home/vagrant/devkitPro/libnds/lib/libnds9.a(default_font.bin.o)
+                0x02014798                default_font_bin
+                0x02016798                default_font_bin_end
+                0x02016798                default_font_bin_size
+ .rodata        0x0201679c      0x308 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+                0x0201679c                SIN_LUT
+                0x020168a0                TAN_LUT
+ .rodata        0x02016aa4        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+                0x02016aa4                _global_impure_ptr
+ .rodata        0x02016aa8       0x24 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o)
+ .rodata        0x02016acc       0x20 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o)
+ .rodata        0x02016aec      0x104 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
+                0x02016aec                _ctype_
+ .rodata        0x02016bf0     0x34d0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o)
+ .rodata        0x0201a0c0       0x1c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
+ .rodata        0x0201a0dc       0x90 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
+ .rodata        0x0201a16c      0x1f8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+                0x0201a16c                __chclass
+                0x0201a26c                __state_table
+                0x0201a2d8                __action_table
+ .rodata        0x0201a364       0x64 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(iosupport.o)
+                0x0201a364                dotab_stdnull
+ *all.rodata*(*)
+ *(.roda)
+ *(.rodata.*)
+ .rodata.str1.4
+                0x0201a3c8       0x26 main.o
+                                 0x28 (size before relaxing)
+ *fill*         0x0201a3ee        0x2 ff
+ .rodata.str1.4
+                0x0201a3f0       0x44 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+                                 0x4c (size before relaxing)
+ .rodata.str1.4
+                0x0201a434        0x2 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+                                  0x4 (size before relaxing)
+ *fill*         0x0201a436        0x2 ff
+ .rodata.str1.4
+                0x0201a438       0x2f /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o)
+                                 0x30 (size before relaxing)
+ *fill*         0x0201a467        0x1 ff
+ .rodata.str1.4
+                0x0201a468       0x12 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o)
+                                 0x14 (size before relaxing)
+ *fill*         0x0201a47a        0x2 ff
+ .rodata.str1.4
+                0x0201a47c      0x112 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
+                                0x130 (size before relaxing)
+ .rodata.str1.4
+                0x00000000        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbrtowc.o)
+ .rodata.str1.4
+                0x00000000       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+ *fill*         0x0201a58e        0x2 ff
+ .rodata.str1.4
+                0x0201a590        0x8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(iosupport.o)
+ *(.gnu.linkonce.r*)
+                0x0201a598                . = ALIGN (0x4)
+
+.rel.dyn        0x0201a598        0x0
+ .rel.iplt      0x00000000        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0201a598                __exidx_start = .
+
+ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0201a598                __exidx_end = .
+                0x0201a598                . = ALIGN (0x4)
+                0x0201a598                PROVIDE (__preinit_array_start, .)
+
+.preinit_array
+ *(.preinit_array)
+                0x0201a598                PROVIDE (__preinit_array_end, .)
+                0x0201a598                PROVIDE (__init_array_start, .)
+
+.init_array     0x0201a598        0x4
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x0201a598        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+                0x0201a59c                PROVIDE (__init_array_end, .)
+                0x0201a59c                PROVIDE (__fini_array_start, .)
+
+.fini_array     0x0201a59c        0x4
+ *(.fini_array)
+ .fini_array    0x0201a59c        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x0201a5a0                PROVIDE (__fini_array_end, .)
+
+.ctors          0x0201a5a0        0x0
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x0201a5a0                . = ALIGN (0x4)
+
+.dtors          0x0201a5a0        0x0
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x0201a5a0                . = ALIGN (0x4)
+
+.eh_frame       0x0201a5a0        0x4
+ *(.eh_frame)
+ .eh_frame      0x0201a5a0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .eh_frame      0x0201a5a0        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+                0x0201a5a4                . = ALIGN (0x4)
+
+.gcc_except_table
+                0x0201a5a4        0x0
+ *(.gcc_except_table)
+                0x0201a5a4                . = ALIGN (0x4)
+
+.jcr            0x0201a5a4        0x4
+ *(.jcr)
+ .jcr           0x0201a5a4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .jcr           0x0201a5a4        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+
+.got
+ *(.got.plt)
+ *(.got)
+ *(.rel.got)
+
+.ewram          0x0201a5a8        0x0
+                0x0201a5a8                __ewram_start = ABSOLUTE (.)
+ *(.ewram)
+ *ewram.*(.text)
+                0x0201a5a8                . = ALIGN (0x4)
+
+.data           0x0201a5a8      0xaf0
+                0x0201a5a8                __data_start = ABSOLUTE (.)
+ *(.data)
+ .data          0x0201a5a8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+ .data          0x0201a5a8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+ .data          0x0201a5a8        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+                0x0201a5a8                __dso_handle
+ .data          0x0201a5ac        0x0 gfx_nave1.o
+ .data          0x0201a5ac        0x0 gfx_tileset.o
+ .data          0x0201a5ac        0x0 character.o
+ .data          0x0201a5ac        0x4 main.o
+                0x0201a5ac                vertical
+ .data          0x0201a5b0       0x64 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+                0x0201a5b0                currentConsole
+                0x0201a5b4                defaultConsole
+ .data          0x0201a614        0x3 /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .data          0x0201a617        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ *fill*         0x0201a617        0x1 ff
+ .data          0x0201a618       0x10 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+                0x0201a618                fifo_buffer_free
+                0x0201a61c                fifo_freewords
+                0x0201a620                fifo_send_queue
+                0x0201a624                fifo_receive_queue
+ .data          0x0201a628        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .data          0x0201a628        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .data          0x0201a628        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+ .data          0x0201a628        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+ .data          0x0201a628        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+ .data          0x0201a628        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+ .data          0x0201a628        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+ .data          0x0201a628        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(default_font.bin.o)
+ .data          0x0201a628       0x60 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+                0x0201a628                bgScrollTable
+                0x0201a648                bgTransform
+                0x0201a668                bgControl
+ .data          0x0201a688        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .data          0x0201a688        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .data          0x0201a688        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+ .data          0x0201a688        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
+ .data          0x0201a688        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
+ .data          0x0201a688        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-bsearch.o)
+ .data          0x0201a688      0x430 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+                0x0201a688                _impure_ptr
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iprintf.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ungetc.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
+ .data          0x0201aab8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
+ .data          0x0201aab8        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
+                0x0201aab8                __wctomb
+ .data          0x0201aabc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wsetup.o)
+ .data          0x0201aabc        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
+                0x0201aabc                __ctype_ptr__
+ .data          0x0201aac0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fflush.o)
+ .data          0x0201aac0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-findfp.o)
+ .data          0x0201aac0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fputwc.o)
+ .data          0x0201aac0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+ .data          0x0201aac0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fvwrite.o)
+ .data          0x0201aac0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fwalk.o)
+ .data          0x0201aac0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iswspace.o)
+ .data          0x0201aac0        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o)
+ .data          0x0201aac0      0x17c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
+                0x0201aac0                __default_locale
+                0x0201abe0                __mb_cur_max
+ .data          0x0201ac3c        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-makebuf.o)
+ .data          0x0201ac3c        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+ .data          0x0201ac3c      0x410 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+                0x0201ac3c                __malloc_av_
+                0x0201b044                __malloc_sbrk_base
+                0x0201b048                __malloc_trim_threshold
+ .data          0x0201b04c        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbrtowc.o)
+ .data          0x0201b04c        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
+                0x0201b04c                __mbtowc
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sccl.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoll_r.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoull_r.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoul.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wbuf.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fclose.o)
+ .data          0x0201b050        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
+ .data          0x0201b050        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
+                0x0201b050                environ
+ .data          0x0201b054        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
+ .data          0x0201b054       0x44 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(iosupport.o)
+                0x0201b058                devoptab_list
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(close.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(fstat.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(isatty.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(lseek.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(read.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(write.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(build_argv.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(handle_manager.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-errno.o)
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+ .data          0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+ *(.data.*)
+ *(.gnu.linkonce.d*)
+                0x0201b098                . = ALIGN (0x4)
+                0x0201b098                __data_end = ABSOLUTE (.)
+                0x0201b098                __dtcm_lma = .
+                0x0201b098                __bss_vma = .
+
+.igot.plt       0x0201b098        0x0
+ .igot.plt      0x00000000        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+
+.tm_clone_table
+                0x0201b098        0x0
+ .tm_clone_table
+                0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .tm_clone_table
+                0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+
+.dtcm           0x0b000000        0x0 load address 0x0201b098
+ *(.dtcm)
+ *(.dtcm.*)
+                0x0b000000                . = ALIGN (0x4)
+                0x0b000000                __dtcm_end = ABSOLUTE (.)
+                0x0201b098                __itcm_lma = (__dtcm_lma + SIZEOF (.dtcm))
+
+.itcm           0x01000100      0x194 load address 0x0201b098
+ *(.itcm)
+ .itcm          0x01000100       0xc8 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+                0x01000100                irqTable
+ .itcm          0x010001c8       0xcc /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+                0x010001c8                IntrMain
+ *itcm.*(.text)
+                0x01000294                . = ALIGN (0x4)
+                0x01000294                __itcm_end = ABSOLUTE (.)
+                0x0201b22c                __vectors_lma = (__itcm_lma + SIZEOF (.itcm))
+
+.vectors        0x01000000        0x0 load address 0x0201b22c
+ *(.vectors)
+ *vectors.*(.text)
+                0x01000000                . = ALIGN (0x4)
+                0x01000000                __vectors_end = ABSOLUTE (.)
+
+.sbss           0x0b000000        0x0
+                0x0b000000                __sbss_start = ABSOLUTE (.)
+                0x0b000000                __sbss_start__ = ABSOLUTE (.)
+ *(.sbss)
+                0x0b000000                . = ALIGN (0x4)
+                0x0b000000                __sbss_end = ABSOLUTE (.)
+
+.bss            0x0201b098     0x2f38
+                0x0201b098                __bss_start = ABSOLUTE (.)
+                0x0201b098                __bss_start__ = ABSOLUTE (.)
+ *(.dynbss)
+ *(.gnu.linkonce.b*)
+ *(.bss*)
+ .bss           0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+ .bss           0x0201b098        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+ .bss           0x0201b098       0x1c /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .bss           0x0201b0b4        0x0 gfx_nave1.o
+ .bss           0x0201b0b4        0x0 gfx_tileset.o
+ .bss           0x0201b0b4        0x0 character.o
+ .bss           0x0201b0b4        0x0 main.o
+ .bss           0x0201b0b4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .bss           0x0201b0b4        0x6 /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .bss           0x0201b0ba        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ *fill*         0x0201b0ba        0x2 
+ .bss           0x0201b0bc        0x8 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+                0x0201b0c0                processing
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(default_font.bin.o)
+ .bss           0x0201b0c4        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .bss           0x0201b0c4        0x4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-bsearch.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iprintf.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ungetc.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wsetup.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fflush.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-findfp.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fputwc.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fvwrite.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fwalk.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iswspace.o)
+ .bss           0x0201b0c8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o)
+ .bss           0x0201b0c8      0x2b8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
+                0x0201b374                _PathLocale
+                0x0201b378                __mlocale_changed
+                0x0201b37c                __nlocale_changed
+ .bss           0x0201b380        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-makebuf.o)
+ .bss           0x0201b380        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+ .bss           0x0201b380       0x34 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+                0x0201b380                __malloc_top_pad
+                0x0201b384                __malloc_current_mallinfo
+                0x0201b3ac                __malloc_max_sbrked_mem
+                0x0201b3b0                __malloc_max_total_mem
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbrtowc.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sccl.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoll_r.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoull_r.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoul.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wbuf.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fclose.o)
+ .bss           0x0201b3b4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
+ .bss           0x0201b3b4        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
+ .bss           0x0201b3b8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
+ .bss           0x0201b3b8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(iosupport.o)
+ .bss           0x0201b3b8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(close.o)
+ .bss           0x0201b3b8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(fstat.o)
+ .bss           0x0201b3b8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(isatty.o)
+ .bss           0x0201b3b8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(lseek.o)
+ .bss           0x0201b3b8        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(read.o)
+ .bss           0x0201b3b8        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+ .bss           0x0201b3bc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o)
+ .bss           0x0201b3bc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(write.o)
+ .bss           0x0201b3bc        0x8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+                0x0201b3bc                fake_heap_start
+                0x0201b3c0                fake_heap_end
+ .bss           0x0201b3c4        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(build_argv.o)
+ .bss           0x0201b3c4        0x8 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+                0x0201b3c4                __syscalls
+ .bss           0x0201b3cc     0x1000 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(handle_manager.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-errno.o)
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+ .bss           0x0201c3cc        0x0 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+ *(COMMON)
+ COMMON         0x0201c3cc     0x1018 main.o
+                0x0201c3cc                map
+                0x0201d3cc                g_character
+ COMMON         0x0201d3e4       0x5c /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+                0x0201d3e4                currentCopy
+ COMMON         0x0201d440        0x1 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+                0x0201d440                __dsimode
+ *fill*         0x0201d441        0x3 
+ COMMON         0x0201d444      0xa40 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+                0x0201d444                fifo_datamsg_data
+                0x0201d484                fifo_buffer
+                0x0201dc84                fifo_value32_func
+                0x0201dcc4                fifo_address_func
+                0x0201dd04                fifo_value32_data
+                0x0201dd44                fifo_value32_queue
+                0x0201dd84                fifo_data_queue
+                0x0201ddc4                fifo_address_data
+                0x0201de04                fifo_datamsg_func
+                0x0201de44                fifo_address_queue
+ COMMON         0x0201de84      0x148 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+                0x0201de84                bgState
+                0x0201dfc4                bgIsTextLut
+ COMMON         0x0201dfcc        0x4 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o)
+                0x0201dfcc                punixTime
+                0x0201dfd0                . = ALIGN (0x4)
+                0x0201dfd0                __bss_end__ = ABSOLUTE (.)
+                0x0201dfd0                __end__ = ABSOLUTE (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x44
+ *(.comment)
+ .comment       0x00000000       0x22 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+                                 0x23 (size before relaxing)
+ .comment       0x00000000       0x23 character.o
+ .comment       0x00000000       0x23 main.o
+ .comment       0x00000022       0x22 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+                                 0x23 (size before relaxing)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-bsearch.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iprintf.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ungetc.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wsetup.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fflush.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-findfp.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fputwc.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fvwrite.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fwalk.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iswspace.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-makebuf.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbrtowc.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sccl.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoll_r.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoull_r.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoul.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wbuf.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fclose.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(iosupport.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(close.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(fstat.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(isatty.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(lseek.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(read.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(write.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(build_argv.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(handle_manager.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-errno.o)
+ .comment       0x00000000       0x23 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x21 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+ .ARM.attributes
+                0x00000021       0x16 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+ .ARM.attributes
+                0x00000037       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+ .ARM.attributes
+                0x00000067       0x1b gfx_nave1.o
+ .ARM.attributes
+                0x00000082       0x1b gfx_tileset.o
+ .ARM.attributes
+                0x0000009d       0x2b character.o
+ .ARM.attributes
+                0x000000c8       0x2b main.o
+ .ARM.attributes
+                0x000000f3       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .ARM.attributes
+                0x0000011a       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .ARM.attributes
+                0x00000141       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ .ARM.attributes
+                0x00000168       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .ARM.attributes
+                0x0000018f       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .ARM.attributes
+                0x000001b6       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .ARM.attributes
+                0x000001dd       0x21 /home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+ .ARM.attributes
+                0x000001fe       0x1b /home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+ .ARM.attributes
+                0x00000219       0x1b /home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+ .ARM.attributes
+                0x00000234       0x1b /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+ .ARM.attributes
+                0x0000024f       0x21 /home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+ .ARM.attributes
+                0x00000270       0x14 /home/vagrant/devkitPro/libnds/lib/libnds9.a(default_font.bin.o)
+ .ARM.attributes
+                0x00000284       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .ARM.attributes
+                0x000002ab       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .ARM.attributes
+                0x000002d2       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .ARM.attributes
+                0x000002f9       0x27 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+ .ARM.attributes
+                0x00000320       0x18 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000338       0x18 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000350       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-bsearch.o)
+ .ARM.attributes
+                0x00000380       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000003b0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003e0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iprintf.o)
+ .ARM.attributes
+                0x00000410       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x00000440       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000470       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000004a0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-rand.o)
+ .ARM.attributes
+                0x000004d0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-setvbuf.o)
+ .ARM.attributes
+                0x00000500       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-siscanf.o)
+ .ARM.attributes
+                0x00000530       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x00000560       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000590       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiscanf.o)
+ .ARM.attributes
+                0x000005c0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ungetc.o)
+ .ARM.attributes
+                0x000005f0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-vfiprintf.o)
+ .ARM.attributes
+                0x00000620       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcrtomb.o)
+ .ARM.attributes
+                0x00000650       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsrtombs.o)
+ .ARM.attributes
+                0x00000680       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x000006b0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wsetup.o)
+ .ARM.attributes
+                0x000006e0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000710       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fflush.o)
+ .ARM.attributes
+                0x00000740       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-findfp.o)
+ .ARM.attributes
+                0x00000770       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fputwc.o)
+ .ARM.attributes
+                0x000007a0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-freer.o)
+ .ARM.attributes
+                0x000007d0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fvwrite.o)
+ .ARM.attributes
+                0x00000800       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fwalk.o)
+ .ARM.attributes
+                0x00000830       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-iswspace.o)
+ .ARM.attributes
+                0x00000860       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-jp2uc.o)
+ .ARM.attributes
+                0x00000890       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-locale.o)
+ .ARM.attributes
+                0x000008c0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-makebuf.o)
+ .ARM.attributes
+                0x000008f0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x00000920       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mallocr.o)
+ .ARM.attributes
+                0x00000950       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbrtowc.o)
+ .ARM.attributes
+                0x00000980       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x000009b0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x000009e0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000a10       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-reallocr.o)
+ .ARM.attributes
+                0x00000a40       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-sccl.o)
+ .ARM.attributes
+                0x00000a70       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcasecmp.o)
+ .ARM.attributes
+                0x00000aa0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcat.o)
+ .ARM.attributes
+                0x00000ad0       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strchr.o)
+ .ARM.attributes
+                0x00000b00       0x16 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000b16       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000b46       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strlcpy.o)
+ .ARM.attributes
+                0x00000b76       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncasecmp.o)
+ .ARM.attributes
+                0x00000ba6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x00000bd6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x00000c06       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoll_r.o)
+ .ARM.attributes
+                0x00000c36       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x00000c66       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoull_r.o)
+ .ARM.attributes
+                0x00000c96       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-strtoul.o)
+ .ARM.attributes
+                0x00000cc6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-svfiprintf.o)
+ .ARM.attributes
+                0x00000cf6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wbuf.o)
+ .ARM.attributes
+                0x00000d26       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-wcsnrtombs.o)
+ .ARM.attributes
+                0x00000d56       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-fclose.o)
+ .ARM.attributes
+                0x00000d86       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-getenv_r.o)
+ .ARM.attributes
+                0x00000db6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-environ.o)
+ .ARM.attributes
+                0x00000de6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-envlock.o)
+ .ARM.attributes
+                0x00000e16       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(iosupport.o)
+ .ARM.attributes
+                0x00000e46       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(close.o)
+ .ARM.attributes
+                0x00000e76       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(fstat.o)
+ .ARM.attributes
+                0x00000ea6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(isatty.o)
+ .ARM.attributes
+                0x00000ed6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(lseek.o)
+ .ARM.attributes
+                0x00000f06       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(read.o)
+ .ARM.attributes
+                0x00000f36       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(sbrk.o)
+ .ARM.attributes
+                0x00000f66       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(times.o)
+ .ARM.attributes
+                0x00000f96       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(write.o)
+ .ARM.attributes
+                0x00000fc6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(malloc_vars.o)
+ .ARM.attributes
+                0x00000ff6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(build_argv.o)
+ .ARM.attributes
+                0x00001026       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(syscall_support.o)
+ .ARM.attributes
+                0x00001056       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a(handle_manager.o)
+ .ARM.attributes
+                0x00001086       0x18 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000109e       0x18 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000010b6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x000010e6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00001116       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00001146       0x18 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzdi2.o)
+ .ARM.attributes
+                0x0000115e       0x18 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x00001176       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000011a6       0x30 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+ .ARM.attributes
+                0x000011d6       0x18 /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x228
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 character.o
+ .debug_aranges
+                0x00000020       0x28 main.o
+ .debug_aranges
+                0x00000048       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .debug_aranges
+                0x00000068       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .debug_aranges
+                0x00000088       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ .debug_aranges
+                0x000000a8       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .debug_aranges
+                0x000000c8       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .debug_aranges
+                0x000000e8       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .debug_aranges
+                0x00000108       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+ .debug_aranges
+                0x00000128       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+ .debug_aranges
+                0x00000148       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+ .debug_aranges
+                0x00000168       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+ .debug_aranges
+                0x00000188       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+ .debug_aranges
+                0x000001a8       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .debug_aranges
+                0x000001c8       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .debug_aranges
+                0x000001e8       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .debug_aranges
+                0x00000208       0x20 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x9f6c
+ *(.debug_info)
+ .debug_info    0x00000000      0xba3 character.o
+ .debug_info    0x00000ba3     0x16ff main.o
+ .debug_info    0x000022a2     0x25b3 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .debug_info    0x00004855      0x414 /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .debug_info    0x00004c69      0xf4e /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ .debug_info    0x00005bb7     0x1597 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .debug_info    0x0000714e      0x612 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .debug_info    0x00007760      0x327 /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .debug_info    0x00007a87       0xd0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+ .debug_info    0x00007b57       0xcb /home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+ .debug_info    0x00007c22       0xcc /home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+ .debug_info    0x00007cee       0xd5 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+ .debug_info    0x00007dc3       0xce /home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+ .debug_info    0x00007e91      0x99a /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .debug_info    0x0000882b      0x92d /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .debug_info    0x00009158      0x6e4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .debug_info    0x0000983c      0x730 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+
+.debug_abbrev   0x00000000     0x21bd
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x231 character.o
+ .debug_abbrev  0x00000231      0x49a main.o
+ .debug_abbrev  0x000006cb      0x53c /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .debug_abbrev  0x00000c07      0x16b /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .debug_abbrev  0x00000d72      0x2fa /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ .debug_abbrev  0x0000106c      0x464 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .debug_abbrev  0x000014d0      0x251 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .debug_abbrev  0x00001721      0x175 /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .debug_abbrev  0x00001896       0x14 /home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+ .debug_abbrev  0x000018aa       0x14 /home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+ .debug_abbrev  0x000018be       0x14 /home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+ .debug_abbrev  0x000018d2       0x14 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+ .debug_abbrev  0x000018e6       0x14 /home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+ .debug_abbrev  0x000018fa      0x282 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .debug_abbrev  0x00001b7c      0x268 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .debug_abbrev  0x00001de4      0x202 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .debug_abbrev  0x00001fe6      0x1d7 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+
+.debug_line     0x00000000     0x2f21
+ *(.debug_line)
+ .debug_line    0x00000000      0x210 character.o
+ .debug_line    0x00000210      0x408 main.o
+ .debug_line    0x00000618      0x85c /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .debug_line    0x00000e74      0x25b /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .debug_line    0x000010cf      0x37d /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ .debug_line    0x0000144c      0x6b1 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .debug_line    0x00001afd      0x2b0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .debug_line    0x00001dad      0x1ea /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .debug_line    0x00001f97      0x107 /home/vagrant/devkitPro/libnds/lib/libnds9.a(mpu_setup.o)
+ .debug_line    0x0000209e       0xc9 /home/vagrant/devkitPro/libnds/lib/libnds9.a(biosCalls.o)
+ .debug_line    0x00002167       0xa5 /home/vagrant/devkitPro/libnds/lib/libnds9.a(debugprint.o)
+ .debug_line    0x0000220c       0xcd /home/vagrant/devkitPro/libnds/lib/libnds9.a(interruptDispatcher.o)
+ .debug_line    0x000022d9       0x9d /home/vagrant/devkitPro/libnds/lib/libnds9.a(swiSoftReset.o)
+ .debug_line    0x00002376      0x352 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .debug_line    0x000026c8      0x2a4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .debug_line    0x0000296c      0x342 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .debug_line    0x00002cae      0x273 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+
+.debug_frame    0x00000000      0xa68
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x48 character.o
+ .debug_frame   0x00000048      0x108 main.o
+ .debug_frame   0x00000150      0x1b4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .debug_frame   0x00000304       0x8c /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+ .debug_frame   0x00000390       0x28 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ .debug_frame   0x000003b8      0x2bc /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .debug_frame   0x00000674       0xb0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .debug_frame   0x00000724       0x3c /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .debug_frame   0x00000760       0xac /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .debug_frame   0x0000080c       0xc8 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .debug_frame   0x000008d4       0xd8 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .debug_frame   0x000009ac       0xbc /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+
+.debug_str      0x00000000     0x359c
+ *(.debug_str)
+ .debug_str     0x00000000      0x78e character.o
+                                0x82b (size before relaxing)
+ .debug_str     0x0000078e      0x7b7 main.o
+                                0xfa9 (size before relaxing)
+ .debug_str     0x00000f45      0xcf4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+                               0x115d (size before relaxing)
+ .debug_str     0x00001c39      0x174 /home/vagrant/devkitPro/libnds/lib/libnds9.a(keys.o)
+                                0x392 (size before relaxing)
+ .debug_str     0x00001dad      0x287 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+                                0xaa7 (size before relaxing)
+ .debug_str     0x00002034      0x56a /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+                                0x832 (size before relaxing)
+ .debug_str     0x0000259e      0x114 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+                                0x41b (size before relaxing)
+ .debug_str     0x000026b2      0x1bc /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+                                0x35f (size before relaxing)
+ .debug_str     0x0000286e      0x2d6 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+                                0x723 (size before relaxing)
+ .debug_str     0x00002b44      0x2aa /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+                                0x68c (size before relaxing)
+ .debug_str     0x00002dee      0x104 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+                                0x27e (size before relaxing)
+ .debug_str     0x00002ef2      0x6aa /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+                                0xbe1 (size before relaxing)
+
+.debug_loc      0x00000000     0x4387
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x1c7 character.o
+ .debug_loc     0x000001c7       0xb2 main.o
+ .debug_loc     0x00000279     0x185d /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .debug_loc     0x00001ad6       0x44 /home/vagrant/devkitPro/libnds/lib/libnds9.a(initSystem.o)
+ .debug_loc     0x00001b1a     0x1128 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .debug_loc     0x00002c42      0x110 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .debug_loc     0x00002d52       0x58 /home/vagrant/devkitPro/libnds/lib/libnds9.a(libnds_exit.arm.o)
+ .debug_loc     0x00002daa      0x440 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .debug_loc     0x000031ea      0x1c4 /home/vagrant/devkitPro/libnds/lib/libnds9.a(system.o)
+ .debug_loc     0x000033ae      0xdb9 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .debug_loc     0x00004167      0x220 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.stack          0x00080000        0x0
+                0x00080000                _stack = .
+ *(.stack)
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/ds_arm9_crt0.o
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crti.o
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtbegin.o
+LOAD gfx_nave1.o
+LOAD gfx_tileset.o
+LOAD character.o
+LOAD main.o
+LOAD /home/vagrant/devkitPro/libnds/lib/libnds9.a
+START GROUP
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/libgcc.a
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libg.a
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libc.a
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/../../../../arm-none-eabi/lib/libsysbase.a
+END GROUP
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtend.o
+LOAD /home/vagrant/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/4.9.2/crtn.o
+OUTPUT(/vagrant/Tipo3/Tipo3.elf elf32-littlearm)
+
+.debug_ranges   0x00000000      0xc08
+ .debug_ranges  0x00000000       0x40 character.o
+ .debug_ranges  0x00000040       0xa8 main.o
+ .debug_ranges  0x000000e8      0x4d0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(console.o)
+ .debug_ranges  0x000005b8      0x340 /home/vagrant/devkitPro/libnds/lib/libnds9.a(fifosystem.o)
+ .debug_ranges  0x000008f8       0xc0 /home/vagrant/devkitPro/libnds/lib/libnds9.a(interrupts.o)
+ .debug_ranges  0x000009b8       0xd8 /home/vagrant/devkitPro/libnds/lib/libnds9.a(background.o)
+ .debug_ranges  0x00000a90      0x130 /home/vagrant/devkitPro/libnds/lib/libnds9.a(trig.o)
+ .debug_ranges  0x00000bc0       0x48 /home/vagrant/devkitPro/libnds/lib/libnds9.a(video.o)

@@ -1,0 +1,93 @@
+#include <nds.h>
+#include "character.h"
+
+#define c_air_friction	  15				  // friction in the air... multiply X
+
+#define min_yvel			(1200)			 // the minimum Y velocity (*.8)
+#define max_xvel			(1000<<4)		  // the maximum X velocity (*.12)
+
+
+//-----------------------------------------------------------------
+// clamp integer to range
+//-----------------------------------------------------------------
+static inline int clampint( int value, int low, int high )
+//-----------------------------------------------------------------
+{
+	if( value < low ) value = low;
+	if( value > high) value = high;
+	return value;
+}
+
+//-----------------------------------------------------------------
+// update character object (call once per frame)
+//-----------------------------------------------------------------
+void characterUpdate( character* b )
+//-----------------------------------------------------------------
+{
+	/** Evita que la nave se salga por los laterales */
+	if( b->x >= 0 && b->x <= 61000 ){
+		// add X velocity to X position
+		b->x += (b->xvel>>4);
+
+		// apply air friction to X velocity
+		b->xvel = (b->xvel * (256-c_air_friction)) >> 8;
+	
+		// clamp X velocity to the limits
+		b->xvel = clampint( b->xvel, -max_xvel, max_xvel );
+	}
+	else{
+		b->xvel = 0;
+		if( b->x < 0 ) b->x = 0;
+		else b->x = 61000;
+	}
+
+	/** Evita que la nave se salga por arriba o abajo */
+	if( b->y >= 0 && b->y <= 45000 ){
+		// add X velocity to X position
+		b->y += (b->yvel>>4);
+
+		// apply air friction to X velocity
+		b->yvel = (b->yvel * (256-c_air_friction)) >> 8;
+	
+		// clamp X velocity to the limits
+		b->yvel = clampint( b->yvel, -max_xvel, max_xvel );
+	}
+	else{
+		b->yvel = 0;
+		if( b->y < 0 ) b->y = 0;
+		else b->y = 45000;
+	}
+
+}
+
+//-----------------------------------------------------------------
+// No se usa en esta version
+//-----------------------------------------------------------------
+void scrollingUpdate( character* b, int scroll )
+//-----------------------------------------------------------------
+{
+	b->x += scroll * 225*4;
+
+}
+
+void characterRender( character* b, int camera_x, int camera_y )
+{
+	u16* sprite = OAM + b->sprite_index * 4;
+
+	int x, y;
+    x = (b->x  >> 8) - camera_x;
+    y = (b->y  >> 8) - camera_y;
+
+	if( x <= -16 || y <= -16 || x >= 256 || y >= 192 )
+   	{
+		// sprite is out of bounds
+		// disable the sprite
+		sprite[0] = ATTR0_DISABLED;
+		return;
+	}
+
+	sprite[0] = y & 255;
+	sprite[1] = (x & 511) | ATTR1_SIZE_16;
+
+	sprite[2] = 0;
+}
